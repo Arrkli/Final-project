@@ -1,0 +1,82 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff0f5;;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    text-align: center;
+}
+
+#center-img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 12px;
+}
+
+.header {
+    background-color: #ffe4ec;
+    padding: 40px 20px;
+}
+
+
+#golova1 {
+    font-size: 2.5em;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #ff8fa3;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+h2 {
+text-align: left;
+    font-size: 1.5em;
+    color: #ff69b4;
+    margin-left: 30px;
+}
+
+.section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.vid, .vkus {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.vid1, .vkus1 {
+    background-color: white;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    text-align: center;
+    
+}
+
+.vid1 img, .vkus1 img {
+    max-width: 300px;
+    height: 300px;
+    border-radius: 8px;
+}
+
+#order {
+    text-align: left;
+}
