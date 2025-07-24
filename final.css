@@ -7,6 +7,13 @@ body {
     text-align: center;
 }
 
+#cap {
+    font-size: 1.5em;
+    color: #f52c90;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
 #center-img {
     max-width: 50%;
     height: auto;
@@ -70,11 +77,24 @@ h2 {
 }
 
 .vid1 img, .vkus1 img {
-    max-width: 300px;
+    max-width: 100%;
     height: 300px;
     border-radius: 8px;
 }
 
 #order {
     text-align: left;
+}
+
+footer {
+    background-color: #fad3de;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #333;
+    text-decoration: none;
 }
