@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="UKR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="final.css">
+
+    <title>Зефір на замовлення</title>
+
+</head>
+<body>
+
+    <script src="final.js"></script>
+
+    <div class="header">
+
+    <h1 id="golova1">Зефір ручної роботи</h1>
+    <p>Ніжний і смачний, як хмаринка - зефір ручної роботи</p>
+    <a href="#order" class="button">Замовити зараз</a>
+
+    </div>
+
+    <div class="center">
+
+        <p id="cap">Свіжий і смачний 100% натуральний зефір</p>
+        <img src="/photo/общий.jpg" alt="Зефір ручної роботи" id="center-img">
+
+    </div>
+
+    <div class="section">
+        <h2>Варіанти зефіру</h2>
+        <div class="vid">
+
+            <div class="vid1">
+                <h3>зефірні завітки</h3>
+                <p>натуральний зефір на пюре з фруктів або ягід</p>
+                <img src="/photo/завитки.jpg" alt="зефірні завітк" class="vid1-img">
+            </div>
+            <div class="vid1">
+                <h3>зефірні букети</h3>
+                <p>зефір на фруктовому соку</p>
+                <img src="/photo/букет.jpg" alt="зефірні букети" class="vid1-img">
+            </div>
+            <div class="vid1">
+                <h3>зефірні квіти в коробці</h3>
+                <p>зефір на фруктовому соку</p>
+                <img src="/photo/кробка.jpg" alt="зефірні квіти в коробці" class="vid1-img">
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+
+        <h2>Смаки зефіру</h2>
+        <div class="vkus">    
+            <div class="vkus1">
+                <h3>Яблучний</h3>
+                <img src="/photo/яблочный.jpg" alt="Яблучний зефір" class="vkus1-img">
+                <p>Ніжний смак яблук з легким ароматом кориці.</p>
+            </div>
+            <div class="vkus1">
+                <h3>Грушевий</h3>
+                <img src="/photo/грушевый.jpg" alt="Грушевий зефір" class="vkus1-img">
+                <p>Солодкий і соковитий грушевий зефір.</p>
+            </div>
+            <div class="vkus1">
+                <h3>Полуничний</h3>
+                <img src="/photo/полуничный.jpg" alt="Полуничний зефір" class="vkus1-img">
+                <p>Свіжий смак полуниці, який нагадує літо.</p>
+            </div>
+        </div>
+    </div>
+
+    <button onclick="toggleDiv()" id="toggle-button">Показати / Приховати таблицю смаків</button>
+
+    <div id="vkus-table-section">
+        <table id="vkus-table">
+            <tr>
+                <th>Полуниця</th>
+                <th>Яблуко</th>
+                <th>Груша</th>
+                <th>Манго</th>
+                <th>Яблуко-груша</th>
+            </tr>
+            <tr>
+                <th>зефірні завітки</th>
+                <td class="green_selection"></td>
+                <td class="red_selection"></td>
+                <td class="green_selection"></td>
+                <td class="green_selection"></td>
+            </tr>
+            <tr>
+                <th>зефірні букети</th>
+                <td class="green_selection"></td>
+                <td class="green_selection"></td>
+                <td class="green_selection"></td>
+                <td class="green_selection"></td>
+            </tr>
+            <tr>
+                <th>зефірні квіти в коробці</th>
+                <td class="red_selection"></td>
+                <td class="green_selection"></td>
+                <td class="red_selection"></td>
+                <td class="red_selection"></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="section" id="order">
+        <h2>Як замовити</h2>
+        <ol>
+            <li>Виберіть смак і кількість</li>
+            <li>Залиште свої контактні дані</li>
+            <li>Ми зв'яжемося з вами для підтвердження</li>
+        </ol>
+        <a href="#" class="button">Оформити замовлення</a>
+
+    </div>
+
+    <footer>
+    <p>&copy; 2025 Зефирная Лавка. / <a href="https://www.instagram.com/valeriaerasova">Instagram</a> / <a href="https://www.tiktok.com/@arrkli?">Tiktok</a></p>
+  </footer>
+
+
+
+</body>
+</html>

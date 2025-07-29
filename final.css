@@ -82,9 +82,23 @@ h2 {
     border-radius: 8px;
 }
 
+#toggle-button {
+    background-color: #ff8fa3;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#vkus-table-section {
+    display: none;
+    margin-top: 20px;
+}
+
 #vkus-table, th, td {
-    width: 50%;
-    border-collapse: collapse;
     margin-top: 20px;
     border: 1px solid black;
     padding: auto;
@@ -93,9 +107,10 @@ h2 {
     border-collapse: collapse;
 }
 
+
 #vkus-table{
-    border-spacing: 30px;
     border-radius: 18px;
+    width: 50%;
 }
 
 .green_selection{
