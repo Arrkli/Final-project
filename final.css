@@ -82,6 +82,30 @@ h2 {
     border-radius: 8px;
 }
 
+#vkus-table, th, td {
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid black;
+    padding: auto;
+    border-spacing: 30px;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+#vkus-table{
+    border-spacing: 30px;
+    border-radius: 18px;
+}
+
+.green_selection{
+    background-color: rgb(0, 180, 0);
+}
+
+.red_selection{
+    background-color: red;
+}
+
 #order {
     text-align: left;
 }
